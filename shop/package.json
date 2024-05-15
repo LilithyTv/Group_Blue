@@ -10,6 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
     "react-router": "^6.23.0",
     "react-router-dom": "^6.23.0",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "webpack:start": "webpack serve --mode development --config webpack.config.js",
+    "webpack:build": "webpack --mode production --config webpack.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +44,16 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.3"
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }
