@@ -5,20 +5,30 @@
     display: flex;  /* This ensures the text and image sections are in a row */
     align-items: center;  /* This aligns items vertically in the center */
     justify-content: center;  /* This centers the items horizontally */
-    background-color: #E6E1D0;
+    background-color: #FFFFFF;  /* Changed to a green color */
     padding: 20px;  /* Added padding around the entire container */
     height: 100%;
     width: 100%;
 }
 
+.inner-container {
+    background-color: #E6E1D0;  /* White background */
+    border-radius: 15px;  /* Rounded corners */
+    width: 900px;  /* Adjust size as needed */
+    padding: 30px;  /* Padding inside the white container */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Optional: adds shadow for depth */
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* Centers content vertically */
+}
+
 .text-section {
-    flex: 1;  /* Takes up half the space of the flex container */
-    padding: 20px;
+    flex: 1; 
     color: #515638;
     font-family: 'Lora', serif;
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .text-section h1, .text-section h3 {
@@ -39,9 +49,8 @@
 }
 
 .image-section {
-    flex: 1;  /* Takes up half the space of the flex container */
     display: flex;
-    justify-content: flex-end;  /* Aligns the image to the right */
+    justify-content: flex-end;  
     padding: 20px;
 }
 

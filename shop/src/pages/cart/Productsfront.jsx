@@ -29,4 +29,16 @@ export const PRODUCTS = [
     price: 9.99,
     productImage: product4,
   },
+  {
+    id: 5,
+    productName: "Grand Cheesecake Affair",
+    price: 9.99,
+    productImage: product4,
+  },
+  {
+    id: 6,
+    productName: "Grand Cheesecake Affair",
+    price: 9.99,
+    productImage: product4,
+  },
 ];

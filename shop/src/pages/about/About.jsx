@@ -7,6 +7,7 @@ import homeImage from '../../assets/images/home/homeimage.png';
 export default function About() {
   return (
     <div className="home-container">
+       <div class="inner-container">
       <div className="text-section">
         <h1><strong>Welcome to Westside Belle Cakery</strong></h1>
         <p>
@@ -29,6 +30,9 @@ export default function About() {
       <div className="image-section">
         <img src={homeImage} alt="home image" />
       </div>
+  
+      </div>
     </div>
   );
 }
+
