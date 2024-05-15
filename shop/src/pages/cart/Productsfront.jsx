@@ -13,20 +13,20 @@ export const PRODUCTS = [
   },
   {
     id: 2,
-    productName: "Macbook Pro 2022 (M1)",
-    price: 1999.0,
+    productName: "Fromage Finesse Delight",
+    price: 9.99,
     productImage: product2,
   },
   {
     id: 3,
-    productName: "Cannon M50 Camera",
-    price: 699.0,
+    productName: "Nearly Standard Cheese Cake",
+    price: 9.99,
     productImage: product3,
   },
   {
     id: 4,
-    productName: "WLS Van Gogh Denim Jacket",
-    price: 228.0,
+    productName: "Grand Cheesecake Affair",
+    price: 9.99,
     productImage: product4,
   },
 ];
