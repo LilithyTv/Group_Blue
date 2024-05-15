@@ -2,53 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .home-container {
+    display: flex;  /* This ensures the text and image sections are in a row */
+    align-items: center;  /* This aligns items vertically in the center */
+    justify-content: center;  /* This centers the items horizontally */
+    background-color: #E6E1D0;
+    padding: 20px;  /* Added padding around the entire container */
     height: 100%;
     width: 100%;
-    align-items: center;  
-    justify-content: center;  
-    background-color: #E6E1D0;  
 }
 
 .text-section {
-    flex: 1;  
+    flex: 1;  /* Takes up half the space of the flex container */
     padding: 20px;
-    color: #515638;  
-    font-family: 'Lora', serif;  
+    color: #515638;
+    font-family: 'Lora', serif;
     display: flex;
     flex-direction: column;
-    max-width: 800px; 
+    max-width: 800px;
 }
 
-.text-section h1 {
-    margin: 0 0 10px 0; 
-    font-family: 'Forum', cursive; 
-}
-
-.text-section h3 {
-    margin: 0 0 10px 0;  
-    font-family: 'Forum', cursive; 
+.text-section h1, .text-section h3 {
+    margin: 0 0 10px 0;
+    font-family: 'Forum', cursive;
 }
 
 .text-section h4, .text-section p, .text-section ul {
-    margin: 0 0 10px 0;  
+    margin: 0 0 10px 0;
 }
 
 .text-section ul {
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .text-section li {
-    line-height: 1.6;  
+    line-height: 1.6;
 }
 
 .image-section {
-    flex: 1; 
+    flex: 1;  /* Takes up half the space of the flex container */
+    display: flex;
+    justify-content: flex-end;  /* Aligns the image to the right */
     padding: 20px;
-    text-align: right;  
 }
 
 .image-section img {
-    width: 100%;  
-    max-width: 400px;  
-    height: auto;  
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
