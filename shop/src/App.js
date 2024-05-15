@@ -1,31 +1,34 @@
+import React from 'react';
 import './App.css';
 import Layout from './Layout';
-import { BrowserRouter, Routes } from 'react-router-dom';
-import { Route } from 'react-router-dom';
-import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Products from './pages/Products';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import ProfilePage from './pages/ProfilePage';
-import ShoppingCart from './pages/ShoppingCart';
-
-
+import About from './pages/about/About';
+import Contact from './pages/contact/Contact';
+/* import ProfilePage from './pages/profile/Profile'; */
+import { Sale } from './pages/sale/Sale';
+import { Cart } from './pages/cart/Cart';
+import { ShopContextProvider } from './context/shop-context';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/profile" element={<ProfilePage />} />
-          <Route path="/shoppingcart" element={<ShoppingCart/>}/>
-        </Routes>
-      </Layout>
-    </BrowserRouter>
+    <Router>
+      <ShopContextProvider>
+        <Layout>
+          
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/sale" element={<Sale />} />
+          </Routes>
+        </Layout>
+      </ShopContextProvider>
+    </Router>
   );
 }
 
 export default App;
+
+/* <Route path="/profile" element={<ProfilePage />} /> */
