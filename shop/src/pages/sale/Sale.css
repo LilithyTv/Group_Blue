@@ -1,8 +1,4 @@
-.shopTitle {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 40px;
-}
+
 .products {
   width: 100%;
   height: auto;
@@ -26,8 +22,19 @@
   width: 400px;
 }
 
-.product .description {
+.product {
+ 
+  font-family: 'Forum', cursive; 
+ 
+  text-align: center;  
+  
+  
+}
+.text-section h5 {
+   
+  font-family: 'Forum', cursive; 
   text-align: center;
+  
 }
 
 .product:hover {
