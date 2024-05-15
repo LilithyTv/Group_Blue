@@ -22,6 +22,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/sale" element={<Sale />} />
+            <Route path="/profile" element={<ProfilePage />} />
           </Routes>
         </Layout>
       </ShopContextProvider>
@@ -30,5 +31,3 @@ function App() {
 }
 
 export default App;
-
-/* <Route path="/profile" element={<ProfilePage />} /> */
