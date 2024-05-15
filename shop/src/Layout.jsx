@@ -17,6 +17,15 @@ export default function Layout({ children }) {
                 </nav>
             </Header>
             <div className="main-content">
+            <Header>
+                <nav className="header-nav" aria-label="Main navigation">
+                    <ul className="nav-links">
+                        <li>
+                            <Link to="/shoppingcart" aria-label="View shopping cart">Shopping Cart</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </Header>
                 <Sidebar />
                 <main className="content-area">
                     {children}
