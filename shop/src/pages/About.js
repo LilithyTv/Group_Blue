@@ -3,11 +3,10 @@ export default function About() {
     return(
         <section id="about" style={{marginLeft:'9rem'}}>
             <div className="container px-5 py-20 mx-auto text-center lg:px-40 sm:mx-auto">
-            <div className="flex flex-col w-f mb-20">
-                
-                <h1 className="sm-text-4x1 text-3x1 font-medium title-font mb-4 text-white text-center">
-                    <center>About</center>
-                </h1>
+            <div className="flex flex-col w-f mb-20">                
+            <h1 class="sm:text-4xl text-3xl font-medium title-font text-blue-900 mb-4">
+                    About Us
+                  </h1>
             </div>
             <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col item-center flex justify-center">
                 <div class="container mx-auto flex flex-wrap">                
