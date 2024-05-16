@@ -1,7 +1,6 @@
-/*
 
 import React, { useState } from 'react';
-import profileImage from '../assets/images/profile/profile.png';
+import profileImage from '../../assets/images/profile/profile.png';
 
 
 
@@ -52,4 +51,4 @@ function FormInput({ label, type = 'text', name, value, onChange }) {
     );
 }
 
-export default Profile; */
+export default Profile;

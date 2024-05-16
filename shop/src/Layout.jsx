@@ -13,6 +13,9 @@ export default function Layout({ children }) {
                         <li>
                             <Link to="/shoppingcart" aria-label="View shopping cart">Shopping Cart</Link>
                         </li>
+                        <li>
+                            <Link to="/profile" aria-label="View profile">Profile</Link>
+                        </li> 
                     </ul>
                 </nav>
             </Header>
@@ -35,6 +38,3 @@ export default function Layout({ children }) {
     );
 }
 
- /*<li>
-                            <Link to="/profile" aria-label="View profile">Profile</Link>
-                        </li> */

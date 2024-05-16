@@ -2,24 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .home-container {
-    display: flex;  /* This ensures the text and image sections are in a row */
-    align-items: center;  /* This aligns items vertically in the center */
-    justify-content: center;  /* This centers the items horizontally */
-    background-color: #FFFFFF;  /* Changed to a green color */
-    padding: 20px;  /* Added padding around the entire container */
-    height: 100%;
-    width: 100%;
+    display: flex;  
+    justify-content: center;  
+    background-color: #FFFFFF;  
+    padding: 20px;  
+    height: 100vh;  
+    width: 100vw;  
 }
 
 .inner-container {
-    background-color: #E6E1D0;  /* White background */
-    border-radius: 15px;  /* Rounded corners */
-    width: 900px;  /* Adjust size as needed */
-    padding: 30px;  /* Padding inside the white container */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Optional: adds shadow for depth */
+    background-color: #E6E1D0; 
+    border-radius: 15px;  
+    width: 900px; 
+    padding: 30px;  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
     display: flex;
     flex-direction: row;
-    align-items: center;  /* Centers content vertically */
+    align-items: center;  
 }
 
 .text-section {
