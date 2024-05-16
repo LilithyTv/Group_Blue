@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import profileImage from '../../assets/images/profile/profile.png';
 
+import "./Profile.css";
 
 
 

@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  padding: 50px;
 }
 
 .product {
@@ -20,6 +21,11 @@
 
 .product img {
   width: 400px;
+}
+
+.product:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+
 }
 
 .product {

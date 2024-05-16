@@ -1,38 +1,39 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 10px;
-  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .grid-item {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-size: 16px;
-  height: 100%;
+  text-align: center;
+}
+
+.details {
+  padding-bottom: 10px; 
+}
+
+.cake-name {
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+.cake-description {
+  font-size: 14px; 
+  color: #666; 
+}
+
+.image-container {
   width: 100%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Larger screens: 4 columns */
-@media (min-width: 1000px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Medium screens: 3 columns */
-@media (min-width: 768px) and (max-width: 999px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Smaller screens: 2 columns */
-@media (max-width: 767px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.cake-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }
