@@ -1,21 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import '@fortawesome/fontawesome-svg-core/styles.css'; 
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGift, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 export default function ShoppingCart() {
   return (
     <div>
-      <nav className="navbar fixed-top bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand"><FontAwesomeIcon icon={faGift} style={{ marginRight: '6%' }} />Westside Belle Cakery</a>
-          <button className="btn text-primary" style={{ background: 'none', border: 'none' }}>
-            <FontAwesomeIcon icon={faCartShopping} className="fa-xl" />
-          </button>
-        </div>
-      </nav>
-
       <section className="container content-section" id="shopping-cart">
         <h3 style={{ textDecoration: 'underline', textAlign: 'center', marginBottom: '7%' }}>Shopping Cart</h3>
         <table className="table table-hover table-cart">
