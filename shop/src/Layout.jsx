@@ -45,9 +45,9 @@ export default function Layout({ children }) {
 			<Header>
 				<nav>
 					<ul className="grid grid-flow-col gap-10 justify-center w-full">
-						<li><Link to="/about">About</Link></li> {/* Added link to About */}
-						<li><Link to="/sale">Sale</Link></li>   {/* Added link to Sale */}
-						<li><Link to="/products">Products</Link></li> {/* Added link to Products */}
+						<li><Link to="/about">About</Link></li> 
+						<li><Link to="/sale">Sale</Link></li>   
+						<li><Link to="/products">Products</Link></li> 
 						<li><Link to="/profile">Profile</Link></li>
 						<li>
 							<Link to="/cart">

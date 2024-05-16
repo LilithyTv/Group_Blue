@@ -24,7 +24,7 @@
 }
 
 .product:hover {
-  transform: translateY(-5px); /* Slight lift effect */
+  transform: translateY(-5px); 
 
 }
 
