@@ -1,43 +1,19 @@
-# Software Project Management: Utilization of Agile and Scrum Methodology
+# A React e-commerce project
   
-The goal of the project is to create a frontend project and showcase different software project management tools:
+This React application was created as a front end project in Visual Studio Code, without the back end code required for online transactions. Any potential similarities with actual businesses are unintentional and purely coincidental. The application reads product data and images from a json file and displays them on the product page. The shopping cart was implemented as a separate page that can be accessed via the header link. The sidebar supports navigation between the rest of the pages. The project can be cloned to a local folder from this repository. Please follow these steps to run it:
+
+- Install Node.js, Visual Studio Code and the Live Server extension.
+- Start Visual Studio Code, select View Terminal
+- Set up a local repository in a local folder by writing "git init" in the terminal (for example: PS C:\Users\User\Desktop\Group Blue\Group_Blue\Group_Blue\git init)
+- Clone this project to the local repository (for example: PS C:\Users\User\Desktop\Group Blue\Group_Blue\Group_Blue\git clone https://github.com/LilithyTv/Group_Blue.git).
+- Go to the project location, for example: C:\Users\User\Desktop\Group Blue\Group_Blue\Group_Blue\shop>
+- Write "npm install" in the terminal and wait fr the installation to be completed.
+- Start the application on the Live Server by writing npm start
+- The application will run on a localhost port in your browser, and you need to press Ctrl + C in the terminal to stop it.
+
+We built this project as part of a programming course. The goal of the project was to create a front end project together and showcase different software project management tools:
 
 - Agile
 - Scrum
 - UML-diagram
   
-Basic Requirements:   
-- Decide what to do 
-- Create a plan 
-- Create a UML-Diagram 
-- Start project 
-- Divide it by part and who is responsible which part 
-- Daily Scrum Meetings 
-- Prepare Topics and discussing topics 
-
-## Deadline: 16th of May
-
-# Agile Tasks
-
-1. Strategic Planning 
-
-2. Portfolio Planning
-
-3. Product Planning
-
-4. Iteration Planning
-
-5. Daily Planning.
-
-![alt text](https://assets-global.website-files.com/6514c506ba80b4a13f75decd/65b2bb7d1057069ea7e2130b_agile%20planning%20onion%2002.png)
-
-
-# Scrum Tasks
-
-1. Create a sprint planning
-2. Hold Daily Stand ups
-3. Carry out a sprint review
-4. Hold a sprint retrospective
-5. Backlog Refinement
-
-![alt text](https://bordio.com/wp-content/uploads/2022/02/The_5_Scrum_ceremonies.png)
