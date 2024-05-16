@@ -10,12 +10,7 @@ export default function Layout({ children }) {
             <Header>
                 <nav className="header-nav" aria-label="Main navigation">
                     <ul className="nav-links">
-                        <li>
-                            <Link to="/shoppingcart" aria-label="View shopping cart">Shopping Cart</Link>
-                        </li>
-                        <li>
-                            <Link to="/profile" aria-label="View profile">Profile</Link>
-                        </li> 
+                      
                     </ul>
                 </nav>
             </Header>
@@ -24,7 +19,7 @@ export default function Layout({ children }) {
                 <nav className="header-nav" aria-label="Main navigation">
                     <ul className="nav-links">
                         <li>
-                            <Link to="/shoppingcart" aria-label="View shopping cart">Shopping Cart</Link>
+                            <Link to="/cart" aria-label="View shopping cart">Cart</Link>
                         </li>
                     </ul>
                 </nav>

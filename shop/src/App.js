@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+
 import Layout from './Layout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Products from './pages/Products';
@@ -22,7 +22,6 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/sale" element={<Sale />} />
             <Route path="/profile" element={<ProfilePage />} /> 
-            
           </Routes>
         </Layout>
       </ShopContextProvider>
