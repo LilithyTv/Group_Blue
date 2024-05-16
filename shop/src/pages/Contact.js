@@ -53,22 +53,19 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 Address
               </h2>
-              <p className="mt-1 text-white">
-                Country
-              </p>
-            </div>
-            <div className="lg:w-1/2 mt-4 lg:mt-0">
+              <p className="leading-relaxed text-white">**********</p>              
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 E-mail
               </h2>
               <a className="text-white leading-relaxed sm-text-4x1">
-                LoremIpsum@dolor.sit
+                wbc@dolor.sit
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 Phone
               </h2>
               <p className="leading-relaxed text-white">********</p>
             </div>
+            
           </div>
         </div>
         <form
