@@ -23,8 +23,7 @@ function ProfilePage() {
     };
 
     return (
-        <div className="profile-container">
-            <h1>Profile Page</h1>
+        <div className="profile-container p-10 mt-10">
             <img src={profileImage} alt="Profile" className="profile-image" />
             <form onSubmit={handleSubmit} className="profile-form">
                 <FormInput label="Name" name="name" value={profile.name} onChange={handleChange} />

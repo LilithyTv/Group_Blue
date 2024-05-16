@@ -25,16 +25,16 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative" style={{marginLeft:'9.2rem',marginRight:'0.2rem'}}>
-        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 flex justify-center">
-              <div class="sm:flex sm:items-center sm:justify-between">
-                <div class="text-center sm:text-left">
-                  <h1 class="sm:text-4xl text-3xl font-medium title-font text-blue-900 mb-4">
-                    Contact Us
-                  </h1>
-                </div>
-               </div>
-            </div>
+    <section id="contact" className="relative" >
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex justify-center">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <div class="text-center sm:text-left">
+            <h1 class="text-2xl p-10  text-gray-500">
+              Contact Us
+            </h1>
+          </div>
+        </div>
+      </div>
       <div className="container mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative border border-gray-200">
           <iframe
@@ -53,7 +53,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 Address
               </h2>
-              <p className="leading-relaxed text-white">**********</p>              
+              <p className="leading-relaxed text-white">**********</p>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 E-mail
               </h2>
@@ -65,7 +65,7 @@ export default function Contact() {
               </h2>
               <p className="leading-relaxed text-white">********</p>
             </div>
-            
+
           </div>
         </div>
         <form
@@ -74,10 +74,10 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            
+
           </h2>
           <p className="leading-relaxed mb-5 sm:mx-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-900">
@@ -123,10 +123,7 @@ export default function Contact() {
           </button>
         </form>
       </div>
-      <div className="bold-text">      
-      <hr class="h-px my-8 bg-blue-600 border-0 dark:bg-gray-700"></hr>
-          <h2 className="text-center pb-4 text-gray-800 italic font-semibold font-mono"></h2>               
-      </div>
-    </section>
+
+    </section >
   );
 }

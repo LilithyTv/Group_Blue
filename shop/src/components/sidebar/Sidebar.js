@@ -28,8 +28,8 @@ const Sidebar = () => {
       <ul className="menu-items pt-10">
         <LinkItem to="/" title="Home" />
         <LinkItem to="/about" title="About Us" />
-        <LinkItem to="/contact" title="Contact" />
         <LinkItem to="/products" title="Products" />
+        <LinkItem to="/contact" title="Contact" />
       </ul>
     </div>
   );
