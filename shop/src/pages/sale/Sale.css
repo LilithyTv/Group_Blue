@@ -57,10 +57,16 @@
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
+  color: black;
 }
 
 .addToCartBttn:hover {
   background-color: rgb(19, 19, 19);
   color: white;
   cursor: pointer;
+}
+
+.text-section h5 {
+  margin: 0 0 10px 0;
+  font-family: 'Forum', cursive;
 }

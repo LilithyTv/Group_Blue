@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="home-container container">
       <div className="inner-container">
-        <div className="text-section text-xl">
+        <div className="text-section">
           <h1 className="text-4xl">
             <strong>Welcome to Westside Belle Cakery</strong>
           </h1>
