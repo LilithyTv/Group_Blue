@@ -34,15 +34,16 @@
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   color: #333;
-  font-size: 16px;
+  font-size: 8px;
   padding: 5px 10px;
   margin: 0 5px;
   cursor: pointer;
   border-radius: 4px;
+  width: 30px;
 }
 
 .checkout button {
-  width: 150px;
+  width: 200px;
   height: 50px;
   background-color: rgb(19, 19, 19);
   color: white;

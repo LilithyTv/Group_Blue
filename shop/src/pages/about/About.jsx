@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import homeImage from "../../assets/images/home/homeimage.png";
-import { Divider } from "@chakra-ui/react";
+
 
 export default function About() {
   return (
