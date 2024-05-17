@@ -9,7 +9,6 @@
   width: 700px;
   height: 250px;
   display: flex;
-
   align-items: center;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
@@ -31,6 +30,17 @@
   font-weight: bolder;
 }
 
+.countHandler button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .checkout button {
   width: 150px;
   height: 50px;
@@ -41,4 +51,3 @@
   margin: 10px;
   cursor: pointer;
 }
-

@@ -1,9 +1,11 @@
 import { createContext, useEffect, useState } from "react";
-import { PRODUCTS } from '../pages/cart/Productsfront';
+import { PRODUCTS } from '../data/Productsfront';
 
-
+{/* Shopcontext creates a context with an initial value of null */}
 
 export const ShopContext = createContext(null);
+
+{/* init cart and sets product amount to zero. Each object key is an ID. Each value the amount */}
 
 const getDefaultCart = () => {
   let cart = {};
@@ -12,6 +14,10 @@ const getDefaultCart = () => {
   }
   return cart;
 };
+
+{/* Cart items is a state variable that holds state of cart */}
+
+{/* return total amount of cart i more than zero */}
 
 export const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
@@ -26,6 +32,9 @@ export const ShopContextProvider = (props) => {
     }
     return totalAmount;
   };
+
+{/* Uses setCartItems to update the state, copyies previous state and incrementing the quantity of the specified itemId. */}
+
 
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));

@@ -1,7 +1,3 @@
-import React from 'react';
-//import './Grid.css';
-import data from './../../data/cakes.json';
-
 function Grid() {
 
   return <div class="grid grid-cols-4 gap-10">

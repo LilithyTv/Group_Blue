@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Product } from "./SaleProduct";
-import { PRODUCTS } from '../cart/Productsfront'; 
+import { PRODUCTS } from '../../data/Productsfront'; 
 import "./Sale.css";
 
 export const Sale = () => {
